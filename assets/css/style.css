@@ -1,0 +1,52 @@
+.custom-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  left: 0;
+  right: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.img-cart {
+  max-width: 100px;
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+.cart-quantity {
+  font-size: 12px;
+  width: 20px;
+  height: 20px;
+}
+
+.cart-table td {
+  vertical-align: middle;
+  text-align: left;
+}
+
+.cart-table {
+  text-align: left;
+}
+
+#toast {
+  padding: 0;
+  transition: all .2s linear;
+}
+
+a {
+  color: black;
+}
+
+.cart-icon {
+  width: fit-content;
+}
+
+.cart-page {
+  min-width: 1000px;
+  overflow-x: auto;
+}
